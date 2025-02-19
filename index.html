@@ -330,12 +330,12 @@
 
       // Загрузка файлов
       var unityLoader = document.createElement("script");
-      unityLoader.src = "Build/BOTS DEV.loader.js";
+      unityLoader.src = "Build/BOTS.loader.js";
       unityLoader.onload = () => {
         createUnityInstance(canvas, {
-          dataUrl: "Build/BOTS DEV.data.unityweb",
-          frameworkUrl: "Build/BOTS DEV.framework.js.unityweb",
-          codeUrl: "Build/BOTS DEV.wasm.unityweb",
+          dataUrl: "Build/BOTS.data.unityweb",
+          frameworkUrl: "Build/BOTS.framework.js.unityweb",
+          codeUrl: "Build/BOTS.wasm.unityweb",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "DefaultCompany",
         productName: "BOTSGame",
